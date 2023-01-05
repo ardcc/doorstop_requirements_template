@@ -1,0 +1,6 @@
+# action.yml
+name: 'Build-container'
+description: 'Adds dependency layers to ubuntu image'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
